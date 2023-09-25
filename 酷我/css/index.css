@@ -1,0 +1,209 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  background-color: #f5f6f8;
+}
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4vw;
+  height: 13.33333333vw;
+  background-color: #fff;
+}
+header .imghead {
+  width: 62.66666667vw;
+  height: 13.33333333vw;
+  background: url(../assets/head.png) no-repeat;
+  background-size: contain;
+}
+header a {
+  display: block;
+  text-align: center;
+  width: 21.33333333vw;
+  height: 8vw;
+  line-height: 8vw;
+  background-color: #ffe31b;
+  font-size: 3.46666667vw;
+  border-radius: 8vw;
+}
+.search {
+  margin-top: 13.33333333vw;
+  padding: 2.66666667vw 4vw;
+  height: 13.86666667vw;
+}
+.search .txt {
+  width: 92vw;
+  height: 8.53333333vw;
+  border-radius: 4.26666667vw;
+  background-color: #f2f4f5;
+  text-align: center;
+  line-height: 8.53333333vw;
+  color: #a1a4b3;
+  font-size: 3.73333333vw;
+}
+.search .txt .icon-sousuo {
+  font-size: 4.26666667vw;
+  margin-top: 0.53333333vw;
+}
+.banner {
+  padding: 0 4vw;
+  height: 28.8vw;
+}
+.banner li {
+  height: 28.8vw;
+}
+.banner img {
+  width: 92vw;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.33333333vw;
+}
+.list {
+  margin-top: 5.33333333vw;
+  padding: 0 4vw;
+}
+.list .content li {
+  display: flex;
+  margin-bottom: 4.26666667vw;
+  height: 28vw;
+  background-color: #fff;
+  border-radius: 2.66666667vw;
+}
+.list .content .pic {
+  margin-right: 5.33333333vw;
+}
+.list .content .pic img {
+  width: 28vw;
+  height: 28vw;
+  border-radius: 2.66666667vw;
+}
+.list .content .txt a {
+  display: block;
+  line-height: 1.8;
+  font-size: 3.2vw;
+  color: #a1a4b3;
+}
+.list .content .txt .more {
+  color: #333333;
+  font-size: 3.73333333vw;
+}
+.list .content .txt .more .icon-right {
+  font-size: 4.26666667vw;
+}
+.title {
+  height: 7.46666667vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4.26666667vw;
+}
+.title h4 {
+  font-size: 5.33333333vw;
+  color: #333;
+}
+.title a {
+  line-height: 7.46666667vw;
+  font-size: 3.2vw;
+  color: #a1a4b3;
+}
+.recommend {
+  padding: 0 4vw;
+  margin-bottom: 13.33333333vw;
+}
+.recommend .content ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.recommend .content ul li {
+  width: 28vw;
+  height: 38.13333333vw;
+  background-color: #fff;
+  margin-bottom: 4.26666667vw;
+}
+.recommend .content ul li .pic {
+  position: relative;
+}
+.recommend .content ul li .pic img {
+  width: 28vw;
+  height: 28vw;
+  object-fit: cover;
+  border-radius: 2.66666667vw;
+}
+.recommend .content ul li .pic .cover {
+  position: absolute;
+  padding: 0 3.46666667vw;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0 2.66666667vw 0 2.66666667vw;
+  font-size: 3.73333333vw;
+  color: #fff;
+}
+.recommend .content ul li .txt {
+  font-size: 3.73333333vw;
+  color: #333;
+}
+.install {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 0 2.66666667vw 0 4vw;
+  left: 4vw;
+  bottom: 4vw;
+  width: 92vw;
+  height: 12vw;
+  background-color: #fff;
+  border-radius: 5.86666667vw;
+}
+.install img {
+  margin-right: 2.66666667vw;
+  width: 9.6vw;
+}
+.install p {
+  flex: 1;
+}
+.install .icon-right {
+  width: 8.53333333vw;
+  height: 8.53333333vw;
+  border-radius: 50%;
+  background-color: #f2f3f5;
+  text-align: center;
+  line-height: 8.53333333vw;
+  font-size: 4.26666667vw;
+}

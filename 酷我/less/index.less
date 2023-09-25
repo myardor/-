@@ -1,0 +1,213 @@
+// out: ../css/
+
+@import "./base.less";
+@vw :3.75vw;
+
+body {
+    background-color: #f5f6f8;;
+}
+// 头部header
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: (15 / @vw);
+    height: (50 / @vw);
+    background-color: #fff;
+
+    .imghead {
+        width: (235 / @vw);
+        height: (50 / @vw);
+        background: url(../assets/head.png) no-repeat;
+        background-size: contain;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        width: (80 / @vw);
+        height: (30 / @vw);
+        line-height: (30 / @vw);
+        background-color: #ffe31b;
+        font-size: (13 / @vw);
+        border-radius: (30 / @vw);
+    }
+}
+
+// 搜索search
+.search {
+    margin-top: (50 / @vw);
+    padding: (10 / @vw) (15 / @vw);
+    height: (52 / @vw);
+    .txt {
+        width: (345 / @vw);
+        height: (32 / @vw);
+        border-radius: (16 / @vw);
+        background-color: #f2f4f5;
+        text-align: center;
+        line-height: (32 / @vw);
+        color: #a1a4b3;
+        font-size: (14 / @vw);
+        .icon-sousuo {
+            font-size: (16 / @vw);
+            margin-top: (2 / @vw);
+        }
+    }
+}
+
+// banner
+.banner {
+    padding: 0 (15 / @vw);
+    height: (108 / @vw);
+
+    li {
+        height: (108 / @vw);
+    }
+    img {
+        width: (345 / @vw);
+        height: 100%;
+        object-fit: cover;
+        border-radius: (5 / @vw);
+    }
+}
+
+// 排行榜list
+.list {
+    margin-top: (20 / @vw);
+    padding: 0 (15 / @vw);
+    
+    // 内容content
+    .content {
+        li {
+            display: flex;
+            margin-bottom: (16 / @vw);
+            height: (105 / @vw);
+            background-color: #fff;
+            border-radius: (10 / @vw);
+        }
+
+
+        .pic {
+            margin-right: (20 / @vw);
+            img{
+                width: (105 / @vw);
+                height: (105 / @vw);
+                border-radius: (10 / @vw);
+            }
+        }
+
+        .txt {
+            a {
+                display: block;
+                line-height: 1.8;
+                font-size: (12 / @vw);
+                color: #a1a4b3;
+            }
+            .more {
+                color: #333333;
+                font-size: (14 / @vw);
+                .icon-right {
+                    font-size: (16 / @vw);
+                }
+            }
+        }
+    }
+}
+// 标题 → 公共样式
+.title {
+    height: (28 / @vw);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: (16 / @vw);
+    h4 {
+        font-size: (20 / @vw);
+        color: #333;
+    }
+    a {
+        line-height: (28 / @vw);
+        font-size: (12 / @vw);
+        color: #a1a4b3;
+
+    }
+}
+
+
+
+// 推荐recommend
+.recommend {
+    padding: 0 (15 / @vw);
+    margin-bottom: (50 / @vw);
+    .content {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li {
+                width: (105 / @vw);
+                height: (143 / @vw);
+                background-color: #fff;
+                margin-bottom: (16 / @vw);
+
+                .pic {
+                    position: relative;
+                    img {
+                        width: (105 / @vw);
+                        height: (105 / @vw);
+                        object-fit: cover;
+                        border-radius: (10 / @vw);
+                    }
+                    .cover {
+                        position: absolute;
+                        padding: 0 (13 / @vw);
+                        left: 0;
+                        bottom: 0;
+                        background-color: rgba(0, 0, 0, 0.8);
+                        border-radius: 0 (10 / @vw) 0 (10 / @vw);
+                        font-size: (14 / @vw);
+                        color: #fff;
+                        
+                    }
+                }
+                .txt {
+                    font-size: (14 / @vw);
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+
+// 安装install
+.install {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 (10 / @vw) 0 (15 / @vw);
+    left: (15 / @vw);
+    bottom: (15 / @vw);
+    width: (345 / @vw);
+    height: (45 / @vw);
+    background-color: #fff;
+    border-radius: (22 / @vw);
+
+    img {
+        margin-right: (10 / @vw);
+        width: (36 / @vw);
+    }
+    p {
+        flex: 1;
+    }
+    .icon-right {
+        width: (32 / @vw);
+        height: (32 / @vw);
+        border-radius: 50%;
+        background-color: #f2f3f5;
+        text-align: center;
+        line-height: (32 / @vw);
+        font-size: (16 / @vw);
+    }
+}
